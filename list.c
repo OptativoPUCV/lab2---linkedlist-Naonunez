@@ -29,6 +29,11 @@ Node * createNode(void * data) {
 }
 
 List * createList() {
+  List->head=NULL;
+
+
+
+  
      return NULL;
 }
 

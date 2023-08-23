@@ -1,0 +1,10 @@
+Wed 23 Aug 2023 04:45:29 PM UTC: 
+ list.c | 5 +++++
+ 1 file changed, 5 insertions(+)
+In file included from test.c:5:
+list.c: In function ‘createList’:
+list.c:32:7: error: expected identifier or ‘(’ before ‘->’ token
+   32 |   List->head=NULL;
+      |       ^~
+Compilation failed
+1a19333
