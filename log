@@ -19,3 +19,9 @@ list.c:32:9: error: unused variable ‘head’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 45208c6
+Wed 23 Aug 2023 04:50:14 PM UTC: 
+ list.c | 8 +++-----
+ 1 file changed, 3 insertions(+), 5 deletions(-)
+ tests:  1|5
+total_score: 10/70
+bb201d0

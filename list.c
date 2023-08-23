@@ -29,12 +29,10 @@ Node * createNode(void * data) {
 }
 
 List * createList() {
-  List *head=NULL;
+  List *Lista=(List*) malloc(sizeof(List));
+  Lista->head=NULL;
 
-
-
-  
-     return NULL;
+  return Lista;
 }
 
 void * firstList(List * list) {
