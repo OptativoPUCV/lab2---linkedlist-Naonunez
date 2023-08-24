@@ -436,3 +436,15 @@ Thu 24 Aug 2023 07:22:14 PM UTC:
  tests:  9|3
 total_score: 35/70
 8278e48
+Thu 24 Aug 2023 07:23:41 PM UTC: 
+ list.c | 4 ++++
+ 1 file changed, 4 insertions(+)
+In file included from test.c:5:
+list.c: In function ‘pushFront’:
+list.c:80:9: error: dereferencing ‘void *’ pointer [-Werror]
+   80 |     data->next=list->head;
+      |         ^~
+list.c:80:9: error: request for member ‘next’ in something not a structure or union
+cc1: all warnings being treated as errors
+Compilation failed
+c905bed
