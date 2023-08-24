@@ -551,3 +551,13 @@ Thu 24 Aug 2023 08:52:59 PM UTC:
  tests:  11|1
 total_score: 55/70
 511cd48
+Thu 24 Aug 2023 08:53:18 PM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+list.c: In function ‘popCurrent’:
+list.c:140:16: error: ‘List’ {aka ‘struct List’} has no member named ‘actual’
+  140 |     return list->actual;
+      |                ^~
+Compilation failed
+a3d66f6
