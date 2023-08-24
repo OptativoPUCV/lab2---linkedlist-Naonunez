@@ -30,7 +30,7 @@ Node * createNode(void * data) {
 
 List * createList() {
   List *Lista=(List*) malloc(sizeof(List));
-  //Lista->head=NULL;
+  Lista->head=NULL;
 
   return Lista;
 }
@@ -72,6 +72,7 @@ void * prevList(List * list) {
 }
 
 void pushFront(List * list, void * data) {
+  
 }
 
 void pushBack(List * list, void * data) {
