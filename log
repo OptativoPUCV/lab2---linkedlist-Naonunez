@@ -502,3 +502,12 @@ Thu 24 Aug 2023 08:12:00 PM UTC:
  tests:  10|2
 total_score: 45/70
 e18b164
+Thu 24 Aug 2023 08:19:47 PM UTC: 
+ list.c | 9 ++++-----
+ 1 file changed, 4 insertions(+), 5 deletions(-)
+In file included from test.c:5:
+list.c:105:1: error: expected identifier or ‘(’ before ‘}’ token
+  105 | }
+      | ^
+Compilation failed
+68b74dc
