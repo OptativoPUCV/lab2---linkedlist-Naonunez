@@ -72,12 +72,14 @@ void * prevList(List * list) {
 }
 
 void pushFront(List * list, void * data) {
+
+  
   if (list->head == NULL){
     list->head=data;
     list->tail=data;
   }
   else{
-    data->next=list->head;
+    //data->next=list->head;
     list->head=data;
   }
   
