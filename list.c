@@ -64,6 +64,12 @@ void * lastList(List * list) {
 }
 
 void * prevList(List * list) {
+  int size=sizeof(list);
+  for (int i=0;i<size;i++){
+    list->current=list->current->next;
+  }
+  
+  return list->current->data;
     return NULL;
 }
 
