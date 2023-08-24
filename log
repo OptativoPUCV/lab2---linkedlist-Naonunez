@@ -418,3 +418,9 @@ list.c:76:9: error: request for member ‘next’ in something not a structure o
 cc1: all warnings being treated as errors
 Compilation failed
 be493fc
+Thu 24 Aug 2023 07:20:13 PM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  9|3
+total_score: 35/70
+427ede4
